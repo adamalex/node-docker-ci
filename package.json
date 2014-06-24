@@ -1,0 +1,23 @@
+{
+  "name": "node-docker-ci",
+  "version": "0.1.0",
+  "description": "Sample app for testing CI through Docker Hub",
+  "main": "app.js",
+  "scripts": {
+    "test": "tape test.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adamalex/node-docker-ci"
+  },
+  "author": "Adam Alexander",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adamalex/node-docker-ci/issues"
+  },
+  "homepage": "https://github.com/adamalex/node-docker-ci",
+  "devDependencies": {
+    "tape": "^2.13.3"
+  }
+}
